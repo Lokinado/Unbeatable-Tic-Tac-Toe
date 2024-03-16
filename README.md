@@ -6,6 +6,7 @@ date = "2024-03-16"
 description = "Website to play tic-tac-toe against an AI opponent that always plays optimally"
 summary = "Website to play tic-tac-toe against an AI opponent that always plays optimally"
 draft="false"
+demourl="https://www.kbrw.pl/PWI1/"
 tags = [
     "html", 
     "javascript",
