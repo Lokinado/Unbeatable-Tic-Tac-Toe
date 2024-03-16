@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <title> Unbeatable Tic Tac Toe </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="mode_select">
+            <div class="switch">
+                Singleplayer
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" onchange="updateMode()"/>
+                    <div class="slider round"></div>
+                </label>
+                Multiplayer
+            </div>
+        </div>
+        <div id="board" class="ninepanel">
+            <div id="0" class="panel"></div>
+            <div id="1" class="panel"></div>
+            <div id="2" class="panel"></div>
+            <div id="3" class="panel"></div>
+            <div id="4" class="panel"></div>
+            <div id="5" class="panel"></div>
+            <div id="6" class="panel"></div>
+            <div id="7" class="panel"></div>
+            <div id="8" class="panel"></div>
+        </div>
+        <div class="reset-container">
+            <button class="reset-button" onclick="resetGame()">Restart</button>
+        </div>
+        <div class="endgame" id="endgame">
+        </div>
+        <div class="footer">
+            Made with love by Krzysztof Borowski &#128154;
+        </div>
+    </body>
+</html>
